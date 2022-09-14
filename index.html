@@ -30,7 +30,7 @@
         </figure>
     </header>
     <main>
-        <section class="col-8 mx-auto mt-5">
+        <section class="col-8 mx-auto my-5">
             <h2><a href="./pages/recipes.html">Recipes <span>&rarr;</span></a></h2>
             <p>
                 A great number of pizza varieties exist, defined by the choice of toppings and sometimes also crust. There are also several styles of pizza, defined by their preparation method. The following list features a few notable ones.
@@ -95,23 +95,23 @@
                 </div>
                 </div>
         </section>
-        <section class="col-8 mx-auto mt-5">
+        <section class="col-8 mx-auto my-5">
             <h2><a href="./pages/restaurants.html">Restaurants <span>&rarr;</span></a></h2>
             <div class="row">
-                <div class="card col-4">
-                    <img src="./images/logo-pizza-hut.png" alt="">
+                <div class="card p-2 col col-md mx-2">
+                    <img src="./images/logo-pizza-hut.png" alt="Pizza Hut logo" class="m-4">
                     <h3>Pizza Hut</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit exercitationem eum et, rerum quis voluptate deleniti odit! Nostrum, officiis libero. Sequi non veniam vel quaerat et quas dolore assumenda.</p>
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPizzaHut">View map</button>
                 </div>
-                <div class="card col-4">
-                    <img src="./images/logo-dominos.png" alt="">
+                <div class="card p-2 col-sm col-md mx-2">
+                    <img src="./images/logo-dominos.png" alt="Domino's Pizza logo" class="m-4">
                     <h3>Domino's</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit exercitationem eum et, rerum quis voluptate deleniti odit! Nostrum, officiis libero. Sequi non veniam vel quaerat et quas dolore assumenda.</p>
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDominos">View map</button>
                 </div>
-                <div class="card col-4">
-                    <img src="./images/map-pizza-hut.png" alt="">
+                <div class="card p-2 col-sm col-md mx-2">
+                    <img src="./images/logo-pizza-express.png" alt="Pizza Express logo" class="m-4">
                     <h3>Pizza Express</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit exercitationem eum et, rerum quis voluptate deleniti odit! Nostrum, officiis libero. Sequi non veniam vel quaerat et quas dolore assumenda.</p>
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPizzaExpress">View map</button>
@@ -119,10 +119,12 @@
             </div>
         </section>
     </main>
-    <footer>
-        <form action="">
+    <footer class="text-primary bg-dark p-5">
+        <form action="" class="col-8 mx-auto">
             <h2>Contact us</h2>
-            <input type="text" name="" id="">
+            <label for="">
+                Name <input type="text" name="" id="">
+            </label>
         </form>
     </footer>
     
@@ -135,17 +137,17 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="./images/map-pizza-hut.png" alt="">
+                    <img src="./images/map-pizza-hut.png" alt="" class="img-fluid">
                     <p>113 Lupus St, Pimlico, London SW1V 3EN</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary">Copy </button>
                 </div>
             </div>
         </div>
     </div>
-    <div class="modal fade" id="modalPizzaHut" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalDominos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -153,8 +155,8 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="./images/map-pizza-hut.png" alt="">
-                    <p>113 Lupus St, Pimlico, London SW1V 3EN</p>
+                    <img src="./images/map-dominos.png" alt="" class="img-fluid">
+                    <p>17 Warwick Way, Pimlico, London SW1V 1QT</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -163,7 +165,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="modalPizzaHut" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalPizzaExpress" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -171,8 +173,8 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="./images/map-pizza-hut.png" alt="">
-                    <p>113 Lupus St, Pimlico, London SW1V 3EN</p>
+                    <img src="./images/map-pizza-express.png" alt="" class="img-fluid">
+                    <p>85 Victoria St, London SW1H 0HW</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
